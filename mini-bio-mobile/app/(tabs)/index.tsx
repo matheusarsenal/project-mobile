@@ -1,5 +1,5 @@
 import { View, Text, Image, StyleSheet, SafeAreaView } from 'react-native';
-
+import "./assets/personal_photo.jpg"
 export default function HomeScreen() {
   return (
     <SafeAreaView style={styles.container}>
