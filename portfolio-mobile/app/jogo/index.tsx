@@ -4,7 +4,31 @@ import { Text, TouchableOpacity, View } from "react-native";
 import { Input } from "../../components/input";
 import styles from "./styles";
 
-const WORDS = [
+const WORDS = [ "schumacher" , "ayrton", "mansell",
+"proust" , "hamilton", "verstappem" ,
+"piquet" , "emerson" ,
+"vettel" , "brabham","hill"
+"rosberg", "raikonnem" ,
+"hakkinem" , "villanueve" , "lauda",
+"hunt"
+"fangio"
+stewart
+ascari
+watson
+andretti
+lorrison
+jedy
+hawton
+farina
+surtees
+clark
+phill
+hulme
+rindt
+jones
+kekerosberg
+
+
   
 ];
 
