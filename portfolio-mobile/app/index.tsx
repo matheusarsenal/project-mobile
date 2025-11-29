@@ -39,15 +39,17 @@ export default function Home() {
 
         {/* FRASE */}
         <Text style={styles.quote}>
-          "{" "}
-          <Text style={styles.sup}>23 a.C</Text>
+          "penso, logo existo" - rene descartes"{" "}
+          <Text style={styles.sup}>1637</Text>
         </Text>
 
         {/* BIOGRAFIA */}
         <View style={styles.segment}>
           <Text style={styles.chapter}>• Biografia •</Text>
           <Text style={styles.box}>
-            Desde de pequeno sempre tive uma alta relação com computadores
+            Desde de pequeno sempre tive uma alta relação com computadores,desde
+            jogos de computadores a estudos pessaois, me fizeram adentrar na computação, minha maior
+            paixão direta e a area de dados ligada ao aprebdizado de maquina(machine learning.)
           </Text>
         </View>
 
