@@ -47,23 +47,17 @@ export default function Home() {
         <View style={styles.segment}>
           <Text style={styles.chapter}>• Biografia •</Text>
           <Text style={styles.box}>
-            Durante minha infância e adolescência, sempre gostei de videogames,
-            passando tardes jogando e criando inspirações artísticas através
-            disso. Apesar de algumas dificuldades, sempre mantive boas notas,
-            principalmente em Matemática e Inglês.  
-            Ao ingressar na faculdade, os impactos da pandemia dificultaram
-            minha rotina, mas sigo firme na jornada para concluir C3 e entrar
-            no mercado profissional.
+            Desde de pequeno sempre tive uma alta relação com computadores
           </Text>
         </View>
 
         {/* CAPACIDADES */}
         <View style={styles.segment}>
-          <Text style={styles.chapter}>• Capacidades •</Text>
+          <Text style={styles.chapter}>• hard skills •</Text>
           <Text style={styles.box}>
-            - Programação em C e Java{"\n"}
+            - Programação em python SQL, C e R{"\n"}
             - Conhecimento básico em HTML/CSS{"\n"}
-            - Fluência em inglês{"\n"}
+            - Fuencia em espanhol e ingles avançado{"\n"}
             - Trabalho em equipe{"\n"}
           </Text>
         </View>
@@ -72,9 +66,9 @@ export default function Home() {
         <View style={styles.segment}>
           <Text style={styles.chapter}>• Experiência e Conquistas •</Text>
           <Text style={styles.box}>
-            - Ensino Médio completo e Ensino Superior em andamento{"\n"}
-            - 175 pontos no FCE — Cambridge (2019){"\n"}
-            - Participação em projeto na Biblioteca Comunitária Caranguejo
+            - E{"\n"}
+            - curso de {"\n"}
+            - Participação em projeto de extenção na Biblioteca Comunitária Caranguejo
             Tabaiares{"\n"}
           </Text>
         </View>
@@ -93,7 +87,7 @@ export default function Home() {
 
           <View style={styles.groupLinks}>
             <Link
-              href=""
+              href="https://www.linkedin.com/in/matheus-fabiano-barbosa-aguiar-143626290/"
               style={styles.hyperlink}
             >
               Linkedin
