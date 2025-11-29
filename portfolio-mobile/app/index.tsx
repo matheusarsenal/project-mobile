@@ -59,9 +59,9 @@ export default function Home() {
           <Text style={styles.box}>
             - Programação em python SQL, C e R{"\n"}
             - Pacote Office: Word, Excel, Power Point, power Bl{"\n"}
-            - Fuencia em espanhol e ingles avançado{"\n"}
+            - Fluencia em espanhol e ingles avançado{"\n"}
             - Frameworks:django, react, js, angular{"\n"}
-            - ide para arduino:Tinkercad, arduino{"\n"}
+            - IDE para arduino:Tinkercad, arduino{"\n"}
           </Text>
         </View>
 
@@ -69,10 +69,11 @@ export default function Home() {
         <View style={styles.segment}>
           <Text style={styles.chapter}>• Experiência e Conquistas •</Text>
           <Text style={styles.box}>
-            - E{"\n"}
-            - curso de {"\n"}
-            - Participação em projeto de extenção na Biblioteca Comunitária Caranguejo
-            Tabaiares{"\n"}
+            - monitoria de fundamentos de hardware{"\n"}
+            - power bi - ibm{"\n"}
+            - introdução a IA - even3 {"\n"}
+            - Participação em projetos de extenção,Biblioteca Comunitária Caranguejo
+            Tabaiares e ong partilhar{"\n"}
           </Text>
         </View>
 
@@ -81,7 +82,7 @@ export default function Home() {
           <Text style={styles.chapter}>• anbito profissional •</Text>
           <Text style={styles.box}>
             - area de ciencia de dados {"\n"}
-            - area de inteligencia artificial focado em machune learning {"\n"}
+            - area de inteligencia artificial focado em machine learning {"\n"}
             
           </Text>
         </View>
