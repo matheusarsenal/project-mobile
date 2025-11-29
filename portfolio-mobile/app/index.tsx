@@ -12,7 +12,7 @@ import { styles } from "./style";
 export default function Home() {
   function hangmanMessage() {
     Alert.alert(
-      "Adivinhe o piloto!",
+      "Adivinhe o piloto canpeão!",
       "- Clique ENTER para chutar uma letra\n- Apenas 5 tentativas\n",
       [
         {
