@@ -5,7 +5,8 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.container}>
       <Image
         source={require('./assets/personal_photo.jpg')}
-        style={styles.imafeevldmvkfmmkerm}
+        style={styles.
+        }
       />
       <Text style={styles.name}>Matheus Barbosa Aguiar</Text>
       <Text style={styles.description}>

@@ -34,7 +34,7 @@ export default function Home() {
         <Text style={styles.title}>Matheus Fabiano Barbosa Aguiar</Text>
 
         <Text style={styles.description}>
-          Estudante de Ciencias da omputação Unicap – 5º período{"\n"}21 anos{"\n"}
+          Estudante de Ciencias da Computação Unicap – 5º período{"\n"}21 anos{"\n"}
         </Text>
 
         {/* FRASE */}
@@ -51,14 +51,15 @@ export default function Home() {
           </Text>
         </View>
 
-        {/* CAPACIDADES */}
+        {/* SKILLS */}
         <View style={styles.segment}>
           <Text style={styles.chapter}>• hard skills •</Text>
           <Text style={styles.box}>
             - Programação em python SQL, C e R{"\n"}
-            - Conhecimento básico em HTML/CSS{"\n"}
+            - Pacote Office: Word, Excel, Power Point, power Bl{"\n"}
             - Fuencia em espanhol e ingles avançado{"\n"}
-            - Trabalho em equipe{"\n"}
+            - Frameworks:django, react, js, angular{"\n"}
+            - ide para arduino:Tinkercad, arduino{"\n"}
           </Text>
         </View>
 
