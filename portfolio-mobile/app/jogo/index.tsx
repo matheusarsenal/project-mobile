@@ -7,7 +7,7 @@ import styles from "./styles";
 const WORDS = [ "schumacher" , "ayrton", "mansell",
 "proust" , "hamilton", "verstappem" ,
 "piquet" , "emerson" ,
-"vettel" , "brabham","hill"
+"vettel" , "brabham","hill",
 "rosberg", "raikonnem" ,
 "hakkinem" , "villanueve" , "lauda",
 "hunt", "fangio", "stewart","ascari"
@@ -19,8 +19,6 @@ const WORDS = [ "schumacher" , "ayrton", "mansell",
 "surtees",
 "clark","phill","hulme"
 ,"rindt","jones","kekerosberg"
-
-
   
 ];
 
