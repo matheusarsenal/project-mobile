@@ -1,35 +1,69 @@
-import { Tabs } from 'expo-router';
-import React from 'react';
+import { StyleSheet } from "react-native";
 
-import { HapticTab } from '@/components/haptic-tab';
-import { IconSymbol } from '@/components/ui/icon-symbol';
-import { Colors } from '@/constants/theme';
-import { useColorScheme } from '@/hooks/use-color-scheme';
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#f1f5f9",
+    paddingHorizontal: 20,
+    paddingTop: 16,
+  },
 
-export default function TabLayout() {
-  const colorScheme = useColorScheme();
+  voltarBtn: {
+    marginBottom: 24,
+    alignSelf: "flex-start",
+    paddingVertical: 4,
+    paddingHorizontal: 2,
+  },
 
-  return (
-    <Tabs
-      screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
-        headerShown: false,
-        tabBarButton: HapticTab,
-      }}>
-      <Tabs.Screen
-        name="index"
-        options={{
-          title: 'Home',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
-        }}
-      />
-      <Tabs.Screen
-        name="explore"
-        options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
-        }}
-      />
-    </Tabs>
-  );
-}
+  voltarTexto: {
+    fontSize: 18,
+    color: "#2563eb",
+    fontWeight: "700",
+    letterSpacing: 0.3,
+  },
+
+  content: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    paddingHorizontal: 24,
+    marginTop: -30,
+  },
+
+  title: {
+    fontSize: 30,
+    fontWeight: "800",
+    color: "#0f172a",
+    textAlign: "center",
+    marginBottom: 10,
+  },
+
+  subtitle: {
+    fontSize: 16,
+    color: "#475569",
+    textAlign: "center",
+    lineHeight: 22,
+    marginBottom: 24,
+    maxWidth: 320,
+  },
+
+  box: {
+    backgroundColor: "#e2e8f0",
+    paddingVertical: 18,
+    paddingHorizontal: 20,
+    borderRadius: 14,
+    maxWidth: 340,
+    elevation: 2,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.15,
+    shadowRadius: 2,
+  },
+
+  boxText: {
+    fontSize: 15,
+    color: "#334155",
+    textAlign: "center",
+    lineHeight: 20,
+  },
+});
