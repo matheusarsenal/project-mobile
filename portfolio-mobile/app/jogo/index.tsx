@@ -4,22 +4,13 @@ import { Text, TouchableOpacity, View } from "react-native";
 import { Input } from "../../components/input";
 import styles from "./styles";
 
-const WORDS = [ "schumacher" , "ayrton", "mansell",
-"proust" , "hamilton", "verstappem" ,
-"piquet" , "emerson" ,
-"vettel" , "brabham","hill",
-"rosberg", "raikonnem" ,
-"hakkinem" , "villanueve" , "lauda",
-"hunt", "fangio", "stewart","ascari"
-,"watson",
-"andretti",
-"jedy",
-"hawton",
-"farina",
-"surtees",
-"clark","phill","hulme"
-,"rindt","jones","kekerosberg"
-  
+const WORDS = [
+  "SCHUMACHER", "AYRTON", "MANSELL", "PROUST", "HAMILTON", "VERSTAPPEN",
+  "PIQUET", "EMERSON", "VETTEL", "BRABHAM", "HILL", "ROSBERG",
+  "RAIKKONEN", "HAKKINEN", "VILLENEUVE", "LAUDA", "HUNT", "FANGIO",
+  "STEWART", "ASCARI", "WATSON", "ANDRETTI", "JODY", "HAWTHORN",
+  "FARINA", "SURTEES", "CLARK", "PHILL", "HULME", "RINDT",
+  "JONES", "KEKE"
 ];
 
 function getRandomWord() {
@@ -36,7 +27,7 @@ export default function HangmanGame() {
 
   const maskedWord = secretWord
     .split("")
-    .map((letter) => (guessedLetters.includes(letter) ? letter : " _ "))
+    .map((l) => (guessedLetters.includes(l) ? l : " _ "))
     .join("");
 
   const guessedList = guessedLetters.join(", ");
@@ -100,7 +91,7 @@ export default function HangmanGame() {
 
           <TouchableOpacity style={styles.button} onPress={resetGame}>
             <Text style={styles.buttonText}>Jogar Novamente</Text>
-          </TouchableOpacity>
+          </Text>
 
           <TouchableOpacity
             style={[styles.button, styles.backButton]}
