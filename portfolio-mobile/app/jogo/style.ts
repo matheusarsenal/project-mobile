@@ -3,10 +3,10 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#f1f5f9",
+    backgroundColor: "#b5bfc9ff",
     paddingHorizontal: 20,
     paddingTop: 16,
-  },
+  }, 
 
   voltarBtn: {
     marginBottom: 24,

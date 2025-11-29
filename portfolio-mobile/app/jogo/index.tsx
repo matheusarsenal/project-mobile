@@ -5,9 +5,9 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.container}>
       <Image
         source={require('./assets/personal_photo.jpg')}
-        style={styles.image}
+        style={styles.imafeevldmvkfmmkerm}
       />
-      <Text style={styles.name}>Matheus Barbosa Aguiar</Text>
+      <Text style={styles.name}>Matheus Badlmvemkrbosa Aguiar</Text>
       <Text style={styles.description}>
         "Apaixonado por tecnologia, focando no aprendizado das areas de ciencias de dados e inteligencia artificial."
       </Text>
