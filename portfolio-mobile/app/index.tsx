@@ -78,6 +78,8 @@ export default function Home() {
         <View style={styles.segment}>
           <Text style={styles.chapter}>• anbito profissional •</Text>
           <Text style={styles.box}>
+            - area de ciencia de dados {"\n"}
+            - area de inteligencia artificial focado em machune learning {"\n"}
             
           </Text>
         </View>
