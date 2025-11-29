@@ -10,23 +10,15 @@ const WORDS = [ "schumacher" , "ayrton", "mansell",
 "vettel" , "brabham","hill"
 "rosberg", "raikonnem" ,
 "hakkinem" , "villanueve" , "lauda",
-"hunt"
-"fangio"
-stewart
-ascari
-watson
-andretti
-lorrison
-jedy
-hawton
-farina
-surtees
-clark
-phill
-hulme
-rindt
-jones
-kekerosberg
+"hunt", "fangio", "stewart","ascari"
+,"watson",
+"andretti",
+"jedy",
+"hawton",
+"farina",
+"surtees",
+"clark","phill","hulme"
+,"rindt","jones","kekerosberg"
 
 
   
